@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  min-height: 400px;
+  max-height: 800px;
+}
+
+legend {
+  color: red;
+}
+
+.row {
+  max-width: 200px;
+  min-width: 100px;
+  background-color: white;
+  display: inline-block;
+}
+
+#bodyContainer {
+  background:   url("http://static2.businessinsider.com/image/56ba2276dd089589148b460f-1190-625/18-gorgeous-pieces-of-game-of-thrones-fan-art.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  color: black;
+  /** min-height: 400px; */
+  
+}
+
+#gameWrap {
+  opacity: 0.6;
+  height: 400px;
+  margin: 7% auto;
+  padding: 4%;
+  text-align: center;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+  background-color: #FFD76A;
+  background-image: linear-gradient(#DDDDDD, #888888);
+}
+
+ #userInput, #cpuResult {
+  display: block;
+  width: 120px;
+  padding: 0.5em;
+  margin: 1% auto;
+  text-align: center;
+  color: #30B;
+  font-weight: 900;
+  background: none;
+  border-style: none;
+  border-bottom: 1px solid #333;
+} 
+
+#cpuResult {
+  height: 22px;
+}
+
+#goBtn, #goBtnR, #quoter, #quoteBanner {
+  padding: 2%;
+  margin-top: 5%;
+  font-size: 1.3em;
+  color: #fff;
+  border-style: none;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  background-color: #6600BB;
+}
+
+
+#footer {
+  height: 35px;
+  color: white;
+}
+
+
+
+
+/***charpic {
+  height: 200px;
+  width: 200px;
+  position: fixed;
+}

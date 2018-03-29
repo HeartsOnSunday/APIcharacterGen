@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Charater Generator</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="jquery-3.3.1.min.js">
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script><script rel="javascript" type="text/javascript"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="container" id="bodyContainer">
+			<div class="clearfix" id="gameWrap">
+				<h1 id="mainHeading">Character Alignment</h1>
+				<div class="row">
+					<h1 id="goBtn">Generate Character</h1>
+					<h1 id="character"></h1><!--                        <div id="charpic"></div> -->
+					<h2 id="allignment"></h2>
+					<h4 id="status"></h4>
+					<h4 id="house"></h4>
+					<h3 id="title"></h3>
+				</div>
+				<div class="row">
+					<h1>“When you play a game of thrones you win or you die.”</h1><img class="portrait" id="portrait" src="" style="width: 100px; height: 100px;"> <img class="portrait" id="thePic" src="" style="width: 100px; height: 100px;"><br>
+				</div>
+				<div class="row">
+					<h1 id="quoteBanner">Have a Quote</h1>
+					<h3 id="quoteHere"></h3>
+					<h4 id="characterHere"></h4><button id="quoter">Get one before winter comes</button>
+				</div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="footer">
+		<h4>Share your results</h4><button class="btn btn-primary" onclick="tweetIt()">Tweet it!</button> <button class="btn btn-primary" onclick="shareIt()">Share it!</button>
+	</div>
+	<script src="script.js">
+	</script>
+</body>
+</html>
