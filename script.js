@@ -41,8 +41,8 @@ var characterObject = {
 				console.log(status);
 				document.getElementById("status").innerHTML = "" + status;
 				console.log(pic);
-				//   document.getElementById("portrait").setAttribute("src", "../Battle/image/"+pic);
-				//  document.getElementById("thePic").src = "../image/Bronn.psd";
+				document.getElementById("portrait").setAttribute("src", "../Battle/image/"+pic);
+				document.getElementById("thePic").src = "../Battle/image/Cersei.jpg";
 			}
 		});
 	}
